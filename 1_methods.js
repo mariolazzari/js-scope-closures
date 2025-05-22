@@ -19,5 +19,3 @@ function createVacation(location, length) {
   // Return the first item in the travelers array
   return vacation.travelers[0];
 }
-
-// Call the createVacation function with a location and length
