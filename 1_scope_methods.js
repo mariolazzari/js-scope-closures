@@ -1,8 +1,3 @@
-# Javascript scope and closures
-
-## Scope methods to a function
-
-```js
 function Vacation(destination, length) {
   this.destination = destination;
   this.length = length;
@@ -24,4 +19,5 @@ function createVacation(location, length) {
   // Return the first item in the travelers array
   return vacation.travelers[0];
 }
-```
+
+// Call the createVacation function with a location and length
