@@ -65,3 +65,17 @@ function createExpedition(details) {
   return expedition.surviveRate;
 }
 ```
+
+## Wrap variables in closures
+
+```js
+function congratulate(user) {
+  const sentence = "Great job,";
+
+  return function createSentence() {
+    return `${sentence} ${user}!`;
+  };
+}
+```
+
+## 
